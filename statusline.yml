@@ -1,0 +1,8 @@
+# Merge into ~/.omp/agent/config.yml (or the active profile's agent/config.yml).
+# If already using a custom preset, only add `status` to an existing segment list.
+# Keep your other segmentOptions unchanged.
+statusLine:
+  preset: custom
+  leftSegments: [pi, vim, model, mode, collab, stream, path, git, pr, context_pct, cost, status]
+  rightSegments: [session_name]
+  showHookStatus: false

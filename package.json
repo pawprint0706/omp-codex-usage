@@ -1,0 +1,20 @@
+{
+  "name": "omp-codex-usage",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "description": "Show Codex plan usage in the omp status line using omp's OAuth login",
+  "author": "pawprint0706",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pawprint0706/omp-codex-usage.git"
+  },
+  "keywords": ["omp", "omp-plugin", "codex", "statusline", "usage"],
+  "scripts": {
+    "test": "node --test test/*.test.ts"
+  },
+  "omp": {
+    "extensions": ["./extensions/codex-usage.ts"]
+  }
+}
